@@ -1,21 +1,21 @@
 # 3D Heat Equation Solver - Using GPU
 ![TO DO](./equation-in-french.png)
 
-# Execute solvers
+# Run solvers
 
 If you want testing and compare CPU and GPU solvers:    
-''' bash
+``` bash
 make && heatTest.x
-'''
+```
 
 To compile and run CPU solver:    
-''' bash
+``` bash
 make && mainCPU.x
-'''
+```
 
 To compile and run GPU solver:    
-''' bash
+``` bash
 make && mainGPU.x
-'''
+```
 
-Solutions will be save in VTK files format.
+-> ***Solutions will be save in VTK files format.***
